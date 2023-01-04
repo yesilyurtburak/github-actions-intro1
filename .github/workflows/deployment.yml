@@ -16,6 +16,7 @@ jobs:
       - name: Run tests
         run: go test -v
   deploy-job:
+    needs: test-job
     runs-on: ubuntu-latest
     steps:
       - name: Get code
