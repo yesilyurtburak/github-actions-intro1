@@ -7,7 +7,7 @@ func TestGreeting(t *testing.T) {
 		name   string
 		result string
 	}{
-		{name: "Burak", result: "Hello Burak"},
+		{name: "Burak", result: "Hello  Burak"},
 		{name: "Ali", result: "Hello Ali"},
 		{name: "Elif", result: "Hello Elif"},
 		{name: "Murat", result: "Hello Murat"},
